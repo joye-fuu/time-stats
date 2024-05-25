@@ -1,0 +1,28 @@
+{
+    "timeZone": "Australia/Sydney",
+    "dependencies": {
+        "enabledAdvancedServices": []
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+        "https://www.googleapis.com/auth/calendar.addons.execute",
+        "https://www.googleapis.com/auth/calendar.readonly",
+        "https://www.googleapis.com/auth/script.locale",
+        "https://www.googleapis.com/auth/drive.file",
+        "https://www.googleapis.com/auth/spreadsheets"
+    ],
+    "runtimeVersion": "V8",
+    "addOns": {
+        "common": {
+            "name": "TimeStats",
+            "logoUrl": "https://cdn.inprnt.com/thumbs/44/5e/445e0b13ffaff14640b17e88fe094338.jpg",
+            "useLocaleFromApp": true,
+            "homepageTrigger": {
+                "runFunction": "createCardHomepage",
+                "enabled": true
+            },
+            "universalActions": []
+        },
+        "sheets": {}
+    }
+}
